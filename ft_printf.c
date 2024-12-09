@@ -53,13 +53,13 @@ int ft_printf(const char *str, ...)
     return (readed);
 }
 
-#include "stdio.h"
+// #include "stdio.h"
 
-int main()
-{
+// int main()
+// {
     
-    ft_printf("this is mine : \n");
-    ft_printf("%");
-    printf("this is theirs : \n");
-    printf("%");
-}
+//     ft_printf("this is mine : \n");
+//     ft_printf("%");
+//     printf("this is theirs : \n");
+//     printf("%");
+// }
