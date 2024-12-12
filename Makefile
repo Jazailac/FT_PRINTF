@@ -1,4 +1,3 @@
-# Variables
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 SRC = ft_printf.c \
@@ -10,7 +9,6 @@ SRC = ft_printf.c \
 OBJ = $(SRC:.c=.o)
 NAME = libftprintf.a
 
-# Rules
 all: $(NAME)
 
 $(NAME): $(OBJ)

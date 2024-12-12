@@ -6,7 +6,7 @@
 /*   By: jazailac <jazailac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/09 21:30:05 by jazailac          #+#    #+#             */
-/*   Updated: 2024/12/09 22:29:09 by jazailac         ###   ########.fr       */
+/*   Updated: 2024/12/11 18:20:26 by jazailac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int	check_processor(const char c, va_list pa, int readed)
 	}
 	else
 		readed += ft_putchar(c);
-	return (readed);
+	return (va_end(pa), readed);
 }
 
 int	ft_printf(const char *str, ...)
