@@ -24,17 +24,6 @@ Your function must handle the following conversions:
 - `%X` - Print a number in hexadecimal (base 16) uppercase format
 - `%%` - Print a percent sign
 
-## 🎯 Bonus Part
-
-Handle any combination of the following flags:
-- `-` (minus sign) - Left-justify within the given field width
-- `0` - Left-pads the number with zeroes instead of spaces
-- `.` - Precision
-- `*` - The width or precision is specified as an argument
-- `#` - Used with x or X specifiers the value is preceded with 0x or 0X
-- ` ` (space) - If no sign is going to be written, a space is inserted before the value
-- `+` - Forces to preceed the result with a plus or minus sign
-
 ## 🚀 Getting Started
 
 ### Prerequisites
